@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/original.css">
+    <link rel="stylesheet" href="css/bs-button-style.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="css/offcanvas.css" rel="stylesheet">
+
+    <title>TOP | アシストオン 留学情報センター カナダ留学・ワーキングホリデーをサポート!</title>
+  </head>
+  <body>
+
+    <header class="sticky-top">
+        <!-- Navigation Start -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" style="padding-top:0;padding-bottom:0">
+            <a class="navbar-brand mr-auto mr-lg-0" href="#"><img src="img/logo.png" alt="" height="50px" style="margin:0px;"></a>
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-lf">
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i></a>
+                </li>
+                <li class="nav-item dropdown nav-lf">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">アシストオンについて</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">アシストオンについて</a>
+                        <a class="dropdown-item" href="#">アシストオンを選ぶ理由</a>
+                        <a class="dropdown-item" href="#">トロントについて</a>
+                        <a class="dropdown-item" href="#">お知らせ</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown nav-lf">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">留学サポート</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">留学サポート</a>
+                    <a class="dropdown-item" href="#">語学留学</a>
+                    <a class="dropdown-item" href="#">ワーキングホリデー留学</a>
+                    <a class="dropdown-item" href="#">カレッジ・大学進学</a>
+                    <a class="dropdown-item" href="#">2カ国、3カ国留学</a>
+                    <a class="dropdown-item" href="#">高校留学</a>
+                    <a class="dropdown-item" href="#">親子留学</a>
+                    <a class="dropdown-item" href="#">インターンシップ</a>
+                    <a class="dropdown-item" href="#">留学Q＆A </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学校情報</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#">学校情報</a>
+                            <a class="dropdown-item" href="#">語学学校</a>
+                            <a class="dropdown-item" href="#">カレッジ</a>
+                            <a class="dropdown-item" href="#">専門学校（ＣＯ-ＯＰ）</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown nav-lf">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ビザサポート</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">ビザサポート</a>
+                        <a class="dropdown-item" href="#">学生ビザ</a>
+                        <a class="dropdown-item" href="#">観光ビザ</a>
+                        <a class="dropdown-item" href="#">ワーキングホリデービザ</a>
+                        <a class="dropdown-item" href="#">ビザ延長</a>
+                        <a class="dropdown-item" href="#">PGWP</a>
+                        <a class="dropdown-item" href="#">永住権</a>
+                    </div>
+                </li>
+                <li class="nav-item nav-lf">
+                    <a class="nav-link" href="#">ホームステイ</a>
+                </li>
+                <li class="nav-item nav-lf">
+                    <a class="nav-link" href="#">現地サポート</a>
+                </li>
+                <li>
+                    <a href="#"><button type="button" class="btn btn-round btn-sm pink-b nav-lf" style="margin-top:6px;"><i class="fas fa-envelope"></i> お問い合わせ &raquo;</button></a>
+                </li>
+                </ul>
+            </div>
+    </nav>
+
+
+
+
+
+    </header>
+
+    <div class="jumbotron">
+        <div class="container" style="margin-top:30px;margin-bottom:30px;">
+            <div id="eyecatch"> <!-- contents in jumbotron  -->
+                <div class="text-center">
+                    <h1 class="text-white" style="margin-top:30px;margin-bottom:30px;">夢をカタチにしよう!</h1>
+                    <p class="text-white" style="line-height:30px;">豊かな大自然、美しい街並み、<br>
+                        人種も多様で大らかに受け入れてくれる人々…<br>
+                        「海外で生活したい、学びたい」…そんなあなたの夢を<br>
+                        このカナダを舞台に叶えてみませんか？<br>
+                        私たちアシストオンが、あなたの夢を強力にサポートします。</p>
+                    <a href="#" class=""><button type="button" class="btn btn-round btn-lg"> アシストオンとは &raquo; </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center" style="color: #ff1493">Pick Up News</h3>
+        <div id="news">
+            <div class="row line-pu">
+                <div class="col-sm-10">
+                    <p style="margin:0;">いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれ...</p>
+                    <p class="text-right" style="margin:0;"><a href="#"><small>詳細はこちら &raquo;</small></a></p>
+                </div>
+                <div class="col-sm-2">
+                    <img src="img/thumbnail01.png" alt="" width="100%">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="ryugaku-type">
+            <h3 class="text-center" style="line-height:40px;margin:35px;">みなさんはどんなカナダ生活を思い描いていますか？<br>
+                私たちが理想の留学をプランニングいたします！</h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="img/ryugalu01.jpg" alt="" width="100%">
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/ryugalu02.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="img/ryugalu03.jpg" alt="" width="100%">
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/ryugalu04.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#"><button type="button" class="btn btn-round btn-lg pink-b"><i class="fas fa-envelope"></i> お問い合わせ &raquo;</button></a>
+            </div>
+        </div>
+
+        <div id="servicelineup">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>アシストオンについて</h3>
+                    <img src="img/column01.jpg" alt="" width="100%">
+                    <p>いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇</p>
+                    <p class="text-right"><a href="#"><small>詳細はこちら &raquo;</small></a></p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>留学サポート</h3>
+                    <img src="img/column02.jpg" alt="" width="100%">
+                    <p>いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇</p>
+                    <p class="text-right"><a href="#"><small>詳細はこちら &raquo;</small></a></p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>ホームステイ</h3>
+                    <img src="img/column03.jpg" alt="" width="100%">
+                    <p>いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇</p>
+                    <p class="text-right"><a href="#"><small>詳細はこちら &raquo;</small></a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>ビザサポート</h3>
+                    <img src="img/column04.jpg" alt="" width="100%">
+                    <p>いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇</p>
+                    <p class="text-right"><a href="#"><small>詳細はこちら &raquo;</small></a></p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>現地サポート</h3>
+                    <img src="img/column05.jpg" alt="" width="100%">
+                    <p>いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇いろはにほへとちり〇ぬるをわかよたれそ〇</p>
+                    <p class="text-right"><a href="#"><small>詳細はこちら &raquo;</small></a></p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>お知らせ</h3>
+                    <img src="img/news.jpg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="toiawase-top">
+        <div class="container">
+            <div class="row footer-banner">
+                <div class="col-sm-8 toiawase-left">
+                    <h3 class="text-white">みなさんの疑問・質問、わたしたちにご相談ください！</h3>
+                    <p class="text-white">カナダ留学や生活、その後のキャリアプランまで自信をもってご回答いたします。</p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#"><button type="button" class="btn btn-lg toiawase-right"><i class="fas fa-envelope"></i> お問い合わせ &raquo; </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="footer-sns">
+                        <li class="footer-snss"><a href="#"><img src="img/foot-ameba.jpg" alt="Assist On Ameba blog"></a></li>
+                        <li class="footer-snss"><a href="#"><img src="img/foot-fb.png" alt="Assist On Facebook"></a></li>
+                        <li class="footer-snss"><a href="#"><img src="img/foot-twitter.png" alt="Assist Twitter"></a></li>
+                        <li class="footer-snss"><a href="#"><img src="img/foot-insta.png" alt="Assist On Instagram"></a></li>
+                    </ul> 
+                    <a href="#"><button type="button" class="btn btn-lg skype-b" style="margin-bottom:20px"><i class="fab fa-skype"></i> スカイプカウンセリング、承ります &raquo; </button></a>
+                    <p><a href="#" style="color:black;">会社概要</a>　｜　<a href="#" style="color:black">プライバシーポリシー</a>　｜　<a href="#" style="color:black">サイトマップ</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#"><img src="img/logo.png" alt="Assist On logo" width="280px"></a>
+                    <p>586 Yonge Street West, Unit201, Toronto, Ontario, Canada M4Y 1Z3<br>
+                    日本語専用 (416)969-8880 | FAX (416)539-0100<br>
+                    assistontoronto16@gmail.com<br>
+                    営業時間　月～金曜日 10:00-18:00</p>
+                </div>
+            </div>
+        </div> <!-- /container -->
+    </footer>
+    <p class="text-center" id="last-footer"><small>Copyright&copy; 2018 アシストオン 留学情報センター All rights reserved.</small></p>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+
+    <script type="text/javascript" src="js/original.js"></script>
+  </body>
+</html>

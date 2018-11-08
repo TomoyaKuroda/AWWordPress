@@ -1,0 +1,39 @@
+.gakko {
+    border:solid 1px #bfbfbf;
+    padding:0;
+    margin-top: 20px;
+}
+
+.gakko-inside {
+    font-size:17px;
+    font-weight:bold;
+    color: black;
+    margin:0;
+    padding-top:8px;
+    padding-bottom:5px;
+}
+
+.gakko-desc {
+    font-size:13px;
+    line-height:1.3;
+    margin:0;
+    padding-bottom: 8px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.gakkoback {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+1,fafafa+100 */
+background: #e5e5e5; /* Old browsers */
+background: -moz-linear-gradient(top, #e5e5e5 1%, #fafafa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e5e5e5 1%,#fafafa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e5e5e5 1%,#fafafa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+}
+.gakko-a {
+    text-decoration: none;
+    padding: 0;
+}
+.gakko-a:hover {
+    text-decoration: none;
+}

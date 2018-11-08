@@ -1,0 +1,357 @@
+/* font, noto medium & black, hannari */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
+/* font-family: 'Hannari', serif; font-weight: normal; */
+
+body {
+/* font-family: "Noto Sans Japanese", sans-serif; */
+    font-family: メイリオ, Meiryo, verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+h1 {
+  font-weight: 900; /* black */
+}
+p {
+  font-weight: 400; /* regular500, medium400 */
+  color: black;
+  font-size: 15px;
+  line-height: 25px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+
+/* button */
+/* white button */
+button {
+  font-weight: 600 !important; /* regular500, medium400 */
+}
+
+/* pink button */
+.pink-b {
+  font-weight: 600 !important; /* regular500, medium400 */
+  color: white;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec598d+0,aa2a3d+100 */
+  background: #ec598d; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ec598d 0%,
+    #aa2a3d 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ec598d 0%,
+    #aa2a3d 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ec598d 0%,
+    #aa2a3d 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec598d', endColorstr='#aa2a3d',GradientType=0 ); /* IE6-9 */
+}
+.skype-b {
+  font-weight: 600 !important;
+  /* regular500, medium400 */
+  color: white;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec598d+0,aa2a3d+100 */
+  background-color: #29abe2;
+  width: 100%;
+}
+/* head */
+/* ######## INDEX page ######## */
+.jumbotron {
+  background-image: url(../img/top.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #ff1493;
+  border-radius: 0 !important;
+}
+/* #eyecatch {
+      background-color:rgba(255,255,255,0.75);
+      padding: 30px;
+  } */
+#eyecatch button {
+  margin: 10px;
+}
+.text-white {
+  color: white;
+}
+#eyecatch h1 {
+  font-family: "Hannari", serif;
+  font-weight: normal;
+}
+.top-center-parent {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+#eyecatch button {
+  color: #ff1493;
+  background-color: white;
+}
+#toiawase-top {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec598d+0,aa2a3d+100 */
+  background: #ec598d; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ec598d 0%,
+    #aa2a3d 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ec598d 0%,
+    #aa2a3d 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ec598d 0%,
+    #aa2a3d 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec598d', endColorstr='#aa2a3d',GradientType=0 ); /* IE6-9 */
+}
+#toiawase-top button {
+  color: #ff1493;
+  background-color: white;
+  width: 100%;
+}
+/* footer */
+.footer-sns {
+  margin-left: -40px;
+}
+.footer-snss {
+  display: inline-block;
+}
+.footer-snss img {
+  height: 50px;
+  margin: 5px 10px 5px 0;
+}
+#last-footer {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 5px;
+}
+/* 縦方向のマージン調整 */
+.line-pu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 1px #ff1493;
+  border-bottom: solid 1px #ff1493;
+}
+#ryugaku-type img {
+  margin-bottom: 20px;
+}
+#ryugaku-type {
+  margin: 50px 0 30px 0;
+}
+#servicelineup {
+  margin: 30px 0 30px 0;
+}
+#servicelineup p {
+  margin: 0;
+}
+#servicelineup img {
+  margin-bottom: 10px;
+}
+#servicelineup h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-left: 4px solid #ff1493;
+  border-bottom: 1px solid gray;
+  padding: 2px 0 3px 8px;
+}
+.footer-banner {
+  margin: 20px 0 20px 0;
+}
+.toiawase-left {
+  margin-top: 20px; /* margin-bottom:4px; */
+}
+.toiawase-right {
+  margin: 30px 0 30px 0;
+}
+@media screen and (max-width: 996px) {
+  .skype-b {
+    font-size: 13px;
+  }
+}
+/* ############## main page css ############### */
+/* 各カテゴリtopの画像変更 */
+.jumbo-pic01 {
+  background-image: url(../img/top-staff.jpg);
+}
+.jumbo-pic02 {
+  background-image: url(../img/top-ryugaku.jpg);
+}
+.jumbo-pic03 {
+  background-image: url(../img/top-visa.jpg);
+}
+.jumbo-pic04 {
+  background-image: url(../img/top-homestay.jpg);
+}
+.jumbo-pic05 {
+  background-image: url(../img/top-support.jpg);
+}
+#pagetoptitle {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+/* main-page h2装飾 */
+#h2-top {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-left: 8px solid #ff1493;
+  border-bottom: 1px solid gray;
+  padding: 2px 0 3px 8px;
+  font-size: 25px;
+}
+/* template page category navi */
+.cate-navi ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.cate-navi li a {
+  display: block;
+  text-decoration: none;
+  background-color: #ec81ba;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  color: white;
+  margin-bottom: 2px;
+  border-left-style: solid;
+  border-color: #ff1493;
+  border-left-width: 8px;
+}
+.cate-navi li a:link {
+  color: white;
+}
+.cate-navi li a:visited {
+  color: white;
+}
+.cate-navi li a:hover {
+  background-color: white;
+  color: #333f48;
+  border-left-style: solid;
+  border-color: #ff1493;
+  border-left-width: 8px;
+}
+#tick {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+  .spnomi {
+    display: none;
+  }
+  .sp-display {
+    display: none;
+  }
+  .list-inline {
+    height: 81px;
+  }
+  .logo-ichi1 {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    left: 30px;
+  }
+  .logo-ichi2 {
+    position: absolute;
+    top: 50%;
+    left: 270px;
+    margin-top: -30px;
+  }
+  .sp-yappaireru {
+    display: none;
+  }
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 767px) {
+  /* main page */
+  .sp-none {
+    display: none;
+  }
+  .sec-top-img {
+    margin-top: 86px;
+    margin-bottom: 30px;
+  }
+  .container {
+    width: 90%;
+  }
+  .jumbotron-container {
+    /* ちょっと例外！！！ */
+    width: 100%;
+  }
+  /* .jumbotron {
+    margin-top:56px;
+    } */
+  .btnp2 {
+    text-align: center;
+  }
+  /* やっぱスマホ時のタイトル文字サイズ小さくする！ */
+  h1 {
+    font-size: 22px;
+  }
+  /* h2, h3 {
+  font-size: 16px;
+  } */
+  #zettaikesu {
+    display: none !important;
+  }
+}
+/* 学校情報 */
+.gakko {
+  border-style: solid;
+  border-color: #ec81ba;
+  padding: 0;
+  margin-top: 20px;
+}
+.gakko-inside {
+  border-style: solid;
+  border-color: #ec81ba;
+  color: white;
+  background-color: #ec81ba;
+  margin: 0;
+  padding-top: 8px;
+}
+.gakko-desc {
+  border-style: solid;
+  border-color: #ec81ba;
+  color: white;
+  background-color: #ec81ba;
+  margin: 0;
+  padding-bottom: 8px;
+}
+.gakko-a {
+  text-decoration: none;
+  padding: 0;
+}
+.gakko-a:hover {
+  text-decoration: none;
+}
+/* ここまで */
+/* コンテンツ内アンカーボタン */
+.btn-content {
+  font-weight: 600 !important;
+  /* regular500, medium400 */
+  color: #ff1493;
+  background-color: white;
+  border-color: #ff1493;
+  border-width: 2px;
+  width: 100%;
+}
+.btn-content:hover {
+  background-color: #f7c7e1;
+}
+/* ↓ここで、アンカーにリンクした際に、タイトル部分がグローバルナビに隠れるのを防ぐ役割をしています */
+.anchor {
+  display: block;
+  padding-top: 80px;
+  margin-top: -80px;
+}

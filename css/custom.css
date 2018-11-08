@@ -1,0 +1,580 @@
+.padding-top-bottom-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.margin-0 {
+  margin: 0;
+}
+.margin-top-bottom-30px {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.margin-bottom-20px {
+  margin-bottom: 20px;
+}
+
+#eyecatch p {
+  line-height: 30px;
+}
+#ryugaku-type > h3 {
+  line-height: 40px;
+  margin: 35px;
+}
+.color-black {
+  color: black;
+}
+
+/*ナビゲーション*/
+@media (min-width: 991.98px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef;
+}
+@media (min-width: 991.98px) {
+  .nav-item {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dropdown-menu {
+    margin-top: 0;
+    background-color: #f8f9fa;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-color: white;
+  }
+  .nav-item button {
+    margin-top: 3px;
+    padding-bottom: 3.5px;
+    padding-top: 4.2px;
+  }
+}
+
+/* insta */
+.interaction:hover {
+  background: rgba(30, 18, 56, 0.3);
+  opacity: 1;
+}
+
+.interaction {
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  width: 100%;
+}
+#instafeed .image:last-child {
+  margin: 0;
+}
+#instafeed .image {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  width: 12.5%;
+  max-height: 190px;
+  object-fit: cover;
+}
+
+.interaction .instacontainer {
+  color: #ffffff;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 48px;
+  left: 50%;
+  line-height: 24px;
+  margin: -24px 0 0 -40%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 80%;
+}
+
+.comments i {
+  font-size: 16px;
+  margin: 0 10px 0 0;
+}
+.likes i {
+  font-size: 16px;
+  margin: 0 10px 0 0;
+}
+#instafeed .image img {
+  margin: -5% 0 -5% -5%;
+  width: 110%;
+}
+.clear-space {
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+
+@media (max-width: 991.98px) {
+  .interaction .instacontainer {
+    display: none;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  #instafeed a:nth-child(n + 5) {
+    display: none;
+  }
+  #instafeed .image {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+  }
+}
+
+/*モバイルアコーディオンメニュー*/
+@media (max-width: 991.98px) {
+  ul.children {
+    display: none;
+  }
+  /*開閉ボタン*/
+  .accordionBtn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 13px 15px 15px 17px;
+    /*border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;*/
+  }
+  .accordionBtn:before {
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    color: #888;
+  }
+  .accordionBtn.active:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+  }
+}
+
+/*お知らせ*/
+.news {
+  height: 332.783px;
+  overflow: auto;
+}
+
+/*記事中h2タグの余白*/
+.content > h2 {
+  margin: 40px 0 30px 0;
+}
+/*ワードプレスエディターでの画像配置位置クラスの有効化*/
+/* 画像の回り込み */
+.alignnone {
+  padding: 4px;
+  margin: 0px 15px 0 15px;
+}
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+}
+.alignright {
+  float: right;
+  display: inline;
+  padding: 4px;
+  margin: 0px 15px 0 15px;
+}
+.alignleft {
+  float: left;
+  display: inline;
+  padding: 4px;
+  margin: 0px 15px 0 15px;
+}
+.clear {
+  clear: both;
+}
+/*コンタクトフォームレスポンシブ対応*/
+.wpcf7-form-control {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+/*コンタクトフォーム送信ボタンデザイン
+.wpcf7-submit {
+  font-weight: 600 !important;
+color: #007bbb;
+  background-color: white;
+border-color: #007bbb;
+  border-width: 2px;
+  max-width: 100%;
+width: 150px;
+}
+.wpcf7-submit:hover {
+background-color: #c6e2ff;
+}*/
+
+/*コンタクトフォーム送信ボタンデザイン 最新*/
+.wpcf7-submit {
+    font-weight: 600 !important;
+    color:white;
+    background: #ec598d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ec598d 0%, #aa2a3d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ec598d 0%,#aa2a3d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ec598d 0%,#aa2a3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec598d', endColorstr='#aa2a3d',GradientType=0 ); /* IE6-9 */
+    max-width: 100%;
+    width: 150px;
+}
+.wpcf7-submit:hover {
+opacity: 0.7;
+}
+
+
+/* 見切れ対策 */
+body {
+  word-wrap:break-word;
+}
+
+.entry-content pre {
+  overflow:scroll;
+  word-wrap:normal;
+}
+
+table {
+  table-layout:fixed;
+}
+
+
+/* リスト表示のフォントサイズ調整...pと同じに(2018/10/18) */
+li {font-size: 15px;!important}
+
+/* 個別学校情報詳細ページ(2018/10/18) */
+.gakkomidashi {
+margin-top:10px;margin-bottom:8px; color: black; background-color: white; background-image: radial-gradient(#e0e0e0 10%, transparent 30%), radial-gradient(#e0e0e0 10%, transparent 30%); background-size: 10px 10px; background-position: 0 0, 5px 5px; padding: 5px 5px 3px 5px; font-weight: bold;width:100%;"
+}
+.gakkotime {
+border-bottom: dotted 1px #868686;
+margin-bottom:5px;
+}
+
+/* 本文見出し(2018/10/20) */
+/* .chumidashi {
+margin-top:10px;margin-bottom:8px; color: #5f5f5f; background-color: white; background-image: radial-gradient(#e0e0e0 10%, transparent 30%), radial-gradient(#e0e0e0 10%, transparent 30%); background-size: 10px 10px; background-position: 0 0, 5px 5px; padding: 5px 5px 3px 5px; font-weight: bold;width:100%;"
+} */
+.komidashi {
+border-bottom: dotted 1px #868686;
+margin-top:20px;margin-bottom:10px;
+}
+
+/*月別アーカイブ手前ライン*/
+.title-line-left-pink::before {
+
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 4px;
+    margin-right: 10px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    vertical-align: middle;
+    background-color: #FF1493;
+
+}
+
+/*本文装飾はじめ（20181020）*/
+
+.arrow {
+ margin: 0 auto;
+margin-top: -5px;
+margin-bottom: -8px;
+width: 120px;
+}
+
+.titleh2 {
+color: #ff1493;
+ background-color: white;
+  background-image: radial-gradient(#e0e0e0 10%, transparent 30%), radial-gradient(#e0e0e0 10%, transparent 30%);
+ background-size: 10px 10px;
+ background-position: 0 0, 5px 5px;
+ padding: 5px 5px 5px 15px;
+font-weight: bold;
+/*
+border-bottom: solid 1px black;
+color: #ff1493;
+font-weight: bold; */
+}
+
+.titlep {
+margin-top:10px;margin-bottom:8px; background-size: 10px 10px; background-position: 0 0, 5px 5px; padding: 5px 5px 3px 5px; font-weight: bold;width:100%;border-bottom: solid 1px #a9a9a9;
+font-weight: bold;
+/*
+font-weight: bold; 
+text-decoration: underline;*/
+}
+
+ul{
+list-style-type:none;
+}
+
+.listbullet {
+color: #3e3e3e;
+padding-left:16px;
+background-image:url("http://ninja-izm.com/wordpress/wp-content/uploads/2018/10/listbullet.png");
+background-repeat:no-repeat;
+background-position:0px 6px;
+}
+
+/*カテゴリ装飾*/
+.category-decoration{
+    border-bottom: dotted 1px #868686;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+　font-weight: bold;
+}
+/*サムネイルサイズレスポンシブ調整*/
+.index-thumb img{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+@media screen and (max-width: 767px){
+  .index-thumb img {
+    width: 75px;
+    height: 75px;
+}
+}
+
+/*ページネーション*/
+ .pagination {
+     display: block;
+     margin: 0 auto;
+     text-align: center;
+}
+ .pagination ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+ .pagination li {
+     display: inline-block;
+     width: auto;
+}
+ .pagination li a, .pagination li>span {
+     font-size: .9em;
+     display: block;
+     width: 30px;
+     margin: 0 1px;
+     padding: 5px 0;
+     text-decoration: none;
+     color: #000;
+     border: solid 1px #ccc;
+     border-radius: 3px;
+}
+ .pagination li>span {
+     color: #fff;
+     background-color: #EC81BA;
+}
+ .pagination li a:hover {
+     color: #fff;
+     background-color: #FF1493;
+}
+ .pagination li .dots {
+     width: 15px;
+     padding: 0;
+     color: #000;
+     border-color: transparent;
+     background-color: transparent;
+}
+
+/*ジャンボトロン*/
+.jumbo-pic02 {
+  background-image: url(../img/top-ryugaku.jpg);
+}
+.jumbo-pic03 {
+  background-image: url(../img/top-visa.jpg);
+}
+.jumbo-pic04 {
+  background-image: url(../img/top-homestay.jpg);
+}
+.jumbo-pic05 {
+  background-image: url(../img/top-support.jpg);
+}
+
+
+
+/*最後の修正（2018/10/25）*/
+
+
+@media(min-width:768px){
+    body {
+      background-image: url(http://ninja-izm.com/wordpress/wp-content/uploads/2018/10/2402-1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color:white;
+    }
+    }
+    @media(max-width:767px){
+    body {
+    background-image: url("http://ninja-izm.com/wordpress/wp-content/uploads/2018/10/2402-small.jpg");
+    background-repeat: repeat;
+    }
+    }
+    
+    /* #####色味変更のCSSです。全体にかかるの上書きしてます##### */
+    
+    /* トップページ */
+    .jumbotron {
+        background-color: #DE3163;
+      }
+    #eyecatch button {
+        color: #DE3163;
+    }
+    /* グロナビ */
+    #toiawase-top button {
+        color: #DE3163;
+    }
+    /* タイトル */
+    #h2-top {
+        border-left: 8px solid #DE3163;
+    }
+    /*サブナビ*/
+    .cate-navi li a {
+        color:#DE3163;
+        background-color: white;
+        border-color: #DE3163;
+        border: solid;
+        border-width: 1px;
+        border-left-style: solid;
+        border-color: #DE3163;
+        border-left-width: 8px;
+    }
+    .cate-navi li a:link {
+        color: #DE3163;
+    }
+    .cate-navi li a:visited {
+        color: #DE3163;
+    }
+    .cate-navi li a:hover {
+        background-color: #DE3163;
+        color: white;
+        border-color: #DE3163;
+    }
+    /*ほかアンカーボタン*/
+    .btn-content {
+        color: #DE3163;
+        background-color: white;
+        border-color:#DE3163;
+    }
+    .btn-content:hover {
+        background-color: #f7c7e1;
+    }
+    /*h2タイトル装飾*/
+    .titleh2 {
+        color: #DE3163;
+         /* background-color: white; */
+         background-color: transparent !important;
+          background-image: radial-gradient(#e0e0e0 10%, transparent 30%), radial-gradient(#e0e0e0 10%, transparent 30%);
+         background-size: 10px 10px;
+         background-position: 0 0, 5px 5px;
+         padding: 5px 5px 5px 15px;
+        font-weight: bold; 
+        }
+    /* #####色味変更のCSS以上##### */
+    
+    /* #####以下class="titleh2"の修正##### */
+    .titleh2 {
+    color: #DE3163;
+     background-color: none;
+      background-image: none;
+     background-size: 10px 10px;
+     background-position: 0 0, 5px 5px;
+     padding: 5px 0px 5px 0px;
+    font-weight: bold; 
+    border-bottom: solid 1px #a9a9a9;
+    }
+
+    /* 本文見出し改定(2018/10/25) */
+.chumidashi {
+margin-top:10px;margin-bottom:8px; background-size: 10px 10px; background-position: 0 0, 5px 5px; padding: 5px 5px 3px 5px; font-weight: bold;width:100%;border-bottom: solid 1px #a9a9a9;"
+}
+
+
+
+
+/*　これは最後の最後でお願いします！　*/
+h2,#h2-top {
+    font-size:22px;
+}
+@media(max-width:767px){
+p {
+    font-size: 14px;
+    line-height: 23px;
+}
+h2,#h2-top {
+    font-size:18px;
+}
+h3 {
+    font-size:16px;
+}
+}
+
